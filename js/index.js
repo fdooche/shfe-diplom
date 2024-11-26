@@ -104,10 +104,10 @@ function poluchitDen(vybrannayaData, vybrannyyMesyac, vybrannyyGod) {
   if(vybrannyyMesyac < 9) {
     poluchennyyMesyac = `0${vybrannyyMesyac}`;
   } else {
-    searchMonth = poluchennyyMesyac;
+    poluchennyyMesyac = vybrannyyMesyac;
   }
 
-  data = `${vybrannyyGod}-${vybrannyyMesyac}-${poluchennayaData}`;
+  data = `${vybrannyyGod}-${vybrannyyMesyac}-${vybrannayaData}`;
 }
 
 // Сортировка списка дней (избавление от кнопок со стрелками)
