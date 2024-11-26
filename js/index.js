@@ -107,7 +107,7 @@ function poluchitDen(vybrannayaData, vybrannyyMesyac, vybrannyyGod) {
     searchMonth = poluchennyyMesyac;
   }
 
-  data = `${vybrannyyGod}-${poluchennyyMesyac}-${poluchennayaData}`;
+  data = `${vybrannyyGod}-${vybrannyyMesyac}-${poluchennayaData}`;
 }
 
 // Сортировка списка дней (избавление от кнопок со стрелками)
